@@ -6,7 +6,7 @@ const inventory = [
     name: "HP EliteBook 850 G8",
     category: "business",
     badge: "CORE i7 11TH GEN",
-    image: "images/elitebook-850.jpg",
+    image: "elitebook-850.jpg",
     price: "Ksh 43,000",
     specs: [
       "11th Gen Intel Core i7 Processor",
@@ -20,7 +20,7 @@ const inventory = [
     name: "HP EliteBook 1040 G6 x360",
     category: "touchscreen",
     badge: "TOUCH x360",
-    image: "images/elitebook-1040.jpg",
+    image: "elitebook-1040.jpg",
     price: "Ksh 39,000",
     specs: [
       "8th Gen Intel Core i7 Processor",
@@ -34,7 +34,7 @@ const inventory = [
     name: "Apple MacBook Air A2179",
     category: "business",
     badge: "FREE BAG",
-    image: "images/macbook-2729.jpg",
+    image: "macbook-2729.jpg",
     price: "Ksh 49,999",
     specs: [
       "10th Gen Intel Core i5 Processor",
@@ -48,7 +48,7 @@ const inventory = [
     name: "HP ProBook 450 G9",
     category: "budget",
     badge: "12TH GEN",
-    image: "images/probook-450.jpg",
+    image: "probook-450.jpg",
     price: "Ksh 35,000",
     specs: [
       "12th Gen Intel Core i5 Processor",
@@ -62,7 +62,7 @@ const inventory = [
     name: "HP DESKTOP SET",
     category: "office",
     badge: "CORE i5 8TH GEN",
-    image: "images/desktop.jpg",
+    image: "desktop.jpg",
     price: "Ksh 28,000",
     specs: [
       "8th Gen Intel Core i5 Processor",
@@ -76,7 +76,7 @@ const inventory = [
     name: "Lenovo ThinkPad T490",
     category: "business",
     badge: "CORE i5 8TH GEN",
-    image: "images/thinkpad-490.jpg",
+    image: "thinkpad-490.jpg",
     price: "Ksh 29,000",
     specs: [
       "8th Gen Intel Core i5 Processor",
@@ -90,7 +90,7 @@ const inventory = [
     name: "Dell Latitude 5420",
     category: "business",
     badge: "CORE i5 11TH GEN",
-    image: "images/delatitude.jpg",
+    image: "delatitude.jpg",
     price: "Ksh 30,000",
     specs: [
       "11th Gen Intel Core i5 (11th Gen)",
@@ -104,7 +104,7 @@ const inventory = [
     name: "Kyocera ECOSYS FS-1025MFP",
     category: "office",
     badge: "3-IN-1 PRINTER",
-    image: "images/ecosys-1025mpf.jpg",
+    image: "ecosys-1025mpf.jpg",
     price: "Ksh 25,000",
     specs: [
       "3-in-1 Laser Printer (Print, Copy, Scan)",
@@ -118,7 +118,7 @@ const inventory = [
     name: "Kyocera ECOSYS M2135dn",
     category: "office",
     badge: "35 PPM PRINTER",
-    image: "images/ecosys-m2135dn.jpg",
+    image: "ecosys-m2135dn.jpg",
     price: "Ksh 28,000",
     specs: [
       "A4 Monochrome Multifunction (Print, Scan, Copy)",
@@ -132,7 +132,7 @@ const inventory = [
     name: "Kyocera ECOSYS MA4500x",
     category: "office",
     badge: "HEAVY DUTY",
-    image: "images/ecosys-ma4500x.jpg",
+    image: "ecosys-ma4500x.jpg",
     price: "Inquire Price",
     specs: [
       "A4 Monochrome Multifunction Printer",
@@ -146,7 +146,7 @@ const inventory = [
     name: "HP EliteBook 830 G8",
     category: "business",
     badge: "Touchscreen | CORE i7 10TH GEN",
-    image: "images/elitebook-830g8.jpg",
+    image: "elitebook-830g8.jpg",
     price: "Ksh 47,000",
     specs: [
       "10th Gen Intel Core i7 Processor",
@@ -160,7 +160,7 @@ const inventory = [
     name: "HP EliteBook 630 G9",
     category: "business",
     badge: "CORE i5 12TH GEN",
-    image: "images/elitebook-630.jpg",
+    image: "elitebook-630.jpg",
     price: "Ksh 37,000",
     specs: [
       "12th Gen Intel Core i5 Processor",
@@ -174,7 +174,7 @@ const inventory = [
     name: "HP EliteBook 830x360 G9",
     category: "business",
     badge: "Touchscreen | CORE i7 12TH GEN",
-    image: "images/elitebook-830x360.jpg",
+    image: "elitebook-830x360.jpg",
     price: "Ksh 57,000",
     specs: [
       "12th Gen Intel Core i7 Processor",
@@ -188,7 +188,7 @@ const inventory = [
     name: "HP ZBook FIREFLY 14 G7",
     category: "business",
     badge: "PROFESSIONAL WORKSTATION",
-    image: "images/zbook-34.jpg",
+    image: "zbook-34.jpg",
     price: "Ksh 35,000",
     specs: [
       "10th Gen Intel Core i7 Processor",
@@ -202,7 +202,7 @@ const inventory = [
     name: "LENOVO THINKPAD X380 YOGA",
     category: "touchscreen",
     badge: "TOUCH x360",
-    image: "images/thinkpad-x380yoga.jpg",
+    image: "thinkpad-x380yoga.jpg",
     price: "Ksh 32,000",
     specs: [
       "8th Gen Intel Core i5 Processor",
@@ -216,7 +216,7 @@ const inventory = [
     name: "PRINTER INKS & TONERS",
     category: "printer inks",
     badge: "GENUINE & ORIGINAL",
-    image: "images/printer-inks.jpg",
+    image: "printer-inks.jpg",
     price: "Inquire Price",
     specs: [
       "High-Quality Ink Cartridges",
@@ -229,7 +229,7 @@ const inventory = [
     name: "Color LaserJet Pro 4203dw",
     category: "printers",
     badge: "COLOR LASER PRINTER",
-    image: "images/laserjet-pro4203dw.jpg",
+    image: "laserjet-pro4203dw.jpg",
     price: "Ksh 57,000",
     specs: [
       "Color LaserJet Pro Printer",
@@ -243,7 +243,7 @@ const inventory = [
     name: "Surface Pro",
     category: "work & study",
     badge: "TOUCH x360",
-    image: "images/surface-pro.jpg",
+    image: "surface-pro.jpg",
     price: "Ksh 22,000",
     specs: [
       "8th Gen Intel Core i5 Processor",
