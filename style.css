@@ -801,3 +801,81 @@ body {
   gap: 10px;
 }
 
+/* Prevent horizontal sideways wobble on all phones */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img, svg, iframe {
+  max-width: 100%;
+}
+
+/* Mobile & Tablet Layout Fix */
+@media (max-width: 840px) {
+  .announcement-inner {
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.78rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 2px solid var(--green);
+    box-shadow: var(--shadow);
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hero {
+    padding: 48px 0;
+  }
+
+  .hero-grid,
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .contact-wrapper {
+    padding: 22px;
+  }
+
+  .trust-metrics {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .toolbar {
+    flex-direction: column;
+  }
+
+  .search-input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-footer {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
