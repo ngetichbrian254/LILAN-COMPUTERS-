@@ -105,7 +105,7 @@ const inventory = [
     category: "office",
     badge: "3-IN-1 PRINTER",
     image: "ecosys-1025mpf.jpg",
-    price: "Ksh 25,000",
+    price: "Inquire Price",
     specs: [
       "3-in-1 Laser Printer (Print, Copy, Scan)",
       "Print Speed: 25 Pages per Minute",
@@ -119,7 +119,7 @@ const inventory = [
     category: "office",
     badge: "35 PPM PRINTER",
     image: "ecosys-m2135dn.jpg",
-    price: "Ksh 28,000",
+    price: "Inquire Price",
     specs: [
       "A4 Monochrome Multifunction (Print, Scan, Copy)",
       "Fast 35 Pages Per Minute + Auto Duplex",
@@ -385,3 +385,4 @@ bookingForm.addEventListener("submit", (e) => {
 });
 
 renderCatalog(inventory);
+
