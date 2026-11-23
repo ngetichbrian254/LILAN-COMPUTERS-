@@ -286,7 +286,7 @@ function renderCatalog(items) {
 
   items.forEach((product) => {
     const orderLink = buildWhatsAppUrl(
-      `Hello Lilan Computers Kericho, I would like to inquire about the ${product.name} (${product.price}). Is it available?`
+      `Hello Lilan Computers Kericho, I would like to inquire about the ${product.name} (${product.price}). Is it available and how can i get it?`
     );
 
     const card = document.createElement("article");
@@ -369,7 +369,7 @@ menuToggle.addEventListener("click", () => {
 
 bookingForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const name = document.getElementById("custName").value.trim();
+  const name = document.getElementById("custName").value.trim();  
   const phone = document.getElementById("custPhone").value.trim();
   const service = document.getElementById("serviceType").value;
   const msg = document.getElementById("custMsg").value.trim();
@@ -385,4 +385,5 @@ bookingForm.addEventListener("submit", (e) => {
 });
 
 renderCatalog(inventory);
+
 
